@@ -1,0 +1,73 @@
+@import './common';
+@import './base/typography'; // fonts
+@import './utils/variables'; // colors/animations etc..
+@import './utils/mixin'; // colors/animations etc..
+
+@import './layout/header'; //header
+
+@import './components/visually-hidden'; // Hidden blocks
+@import './components/container'; // Container
+@import './components/modal-table-reserve'; // Modal table reserve
+@import './components/modal-room-reserve'; // Modal room reserve
+@import './components/btn'; // default button
+@import './components/line';
+@import './components/main-hero';
+@import './components/modal-room-price';
+
+@import './layout/about-our-restaurant';
+
+// Container
+@import './layout/room-details';
+@import './components/about-our-hotel';
+@import './components/hero-room-page';
+@import './components/section-double-room-luxe';
+@import './components/section-tree-room';
+
+
+@import './components/restaurant-hero'; // Restaurant page Hero
+
+@import './components/about-our-kitchen';
+
+@import './components/restaurant_page-menu'; // Restaurant page menu
+
+@import './components/details-hotel-mainpage';
+
+@import './components/contacts';
+@import './components/footer';
+@import './components/section-double-room';
+
+@import './details_restaurant_mainpage';
+
+// @import './example';
+
+@import './layout/hotel-hero'; // hotel Hero
+
+body {
+  font-family: 'Montserrat', 'Times New Roman', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+// Images
+img {
+  display: block;
+  height: auto;
+
+  @media screen and (max-width: 414px) {
+    width: auto;
+  }
+}
